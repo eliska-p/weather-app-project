@@ -16,6 +16,7 @@ li {
   list-style-type: none;
   color: plum;
   font-size: 16px;
+  text-transform: capitalize;
 }
 
 .weather-app-wrapper {
