@@ -79,7 +79,7 @@ function displayCelsiusTemperature(event) {
   temperatureElement.innerHTML = Math.round(celsiusTemperature);
 }
 
-let celsiusTemperature = null;
+let celsiusTemperature;
 
 search("New York");
 

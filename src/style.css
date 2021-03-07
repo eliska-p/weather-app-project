@@ -27,13 +27,15 @@ li:first-letter {
   margin: 30px auto;
 }
 .weather-app {
-  padding: 30px;
+  padding: 70px;
   border: 2px solid plum;
   border-radius: 30px;
 }
 
 .weather-temperature {
   color: blueviolet;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .weather-temperature img {
@@ -59,4 +61,21 @@ li:first-letter {
 
 .weather-temperature .active:hover {
   text-decoration: none;
+}
+
+.weather-forecast {
+  font-size: 14px;
+  color: plum;
+}
+
+.weather-forecast p {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.weather-forecast img {
+  display: inline;
+  margin: 0 auto;
+  height: 48px;
+  width: 48px;
 }
