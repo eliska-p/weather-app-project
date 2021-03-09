@@ -115,7 +115,7 @@ function displayCelsiusTemperature(event) {
 
 let celsiusTemperature;
 
-search("New York");
+search("Prague");
 
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
